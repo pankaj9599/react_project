@@ -1,0 +1,101 @@
+/* .container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 500px;   
+}
+.current_image{
+    border-radius: 0.5rem;
+    box-shadow: 10px 10px 12px gray;
+    width: 100%;
+    height: 100%;
+}
+.arrow{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    color: rgb(255, 255, 255);
+}
+.arrowleft{
+    left:1rem;
+}
+.arrowright{
+    right:1rem;
+}
+.circle-indicator{
+    position:absolute;
+    bottom:1rem;
+
+}
+.current_indicator{
+
+  background-color: rgb(201, 198, 198);
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;  
+cursor: pointer;
+}
+.current_indicator hide-current_indicator{
+    display: none;
+}
+.current-image hide-current-image{
+    display: none;
+} */
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 500px;
+    background-color: #f0f0f0; /* Added background color for contrast */
+  }
+  
+  .current-image {
+    border-radius: 0.5rem;
+    box-shadow: 10px 10px 12px gray;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .hide-current-image {
+    display: none;
+  }
+  
+  .arrow {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    color: rgb(0, 0, 0); /* Changed to black for better visibility */
+    cursor: pointer;
+  }
+  
+  .arrowleft {
+    left: 1rem;
+  }
+  
+  .arrowright {
+    right: 1rem;
+  }
+  
+  .circle-indicator {
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .current_indicator {
+    background-color: rgb(201, 198, 198);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+  }
+  
+  .hide-current-indicator {
+    display: none;
+  }
+  
